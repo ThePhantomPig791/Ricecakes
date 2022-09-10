@@ -6,7 +6,6 @@
   "mixins": [
   ],
   "client": [
-    "Ricecakes"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -14,12 +14,12 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/ricecakes/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.thephantompig.ricecakes.Ricecakes"
+      "net.thephantompig791.ricecakes.Ricecakes"
     ]
   },
   "mixins": [
