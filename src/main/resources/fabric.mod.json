@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ricecakes",
+  "version": "${version}",
+
+  "name": "Rice Cakes",
+  "description": "Rice cakes, requested by Chris7898",
+  "authors": [
+    "ThePhantomPig791"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.thephantompig.ricecakes.Ricecakes"
+    ]
+  },
+  "mixins": [
+    "ricecakes.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
