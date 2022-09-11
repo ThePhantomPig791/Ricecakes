@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "ricecakes:raw_rice_cake"
+  },
+  "result": "ricecakes:rice_cake",
+  "experience": 1
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cpc",
+    "rer",
+    " b "
+  ],
+  "key": {
+    "r": {
+      "item": "ricecakes:brown_rice"
+    },
+    "p": {
+      "item": "minecraft:potato"
+    },
+    "c": {
+      "item": "minecraft:carrot"
+    },
+    "e": {
+      "item": "minecraft:egg"
+    },
+    "b": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "ricecakes:raw_fried_rice"
+  }
+}

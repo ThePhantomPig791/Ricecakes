@@ -1,3 +1,14 @@
 {
-  "item.ricecakes.rice_cake": "Rice Cake"
+  "item.ricecakes.rice_cake": "Rice Cake",
+  "item.ricecakes.rice": "White Rice",
+  "item.ricecakes.raw_rice_cake": "Raw Rice Cake",
+  "item.ricecakes.rice_crop_seeds": "Oryza Sativa Seeds",
+  "item.ricecakes.rice_cake_block": "Rice Cake Block",
+  "item.ricecakes.rough_rice": "Rough Rice",
+  "item.ricecakes.brown_rice": "Brown Rice",
+  "item.ricecakes.raw_fried_rice": "Raw Fried Rice",
+  "item.ricecakes.fried_rice": "Fried Rice",
+
+  "block.ricecakes.rice_cake_block": "Rice Cake Block",
+  "block.ricecakes.rice_crop_seeds": "Oryza Sativa Plant"
 }

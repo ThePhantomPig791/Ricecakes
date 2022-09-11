@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ricecakes:rough_rice"
+    }
+  ],
+  "result": {
+    "item": "ricecakes:brown_rice"
+  }
+}

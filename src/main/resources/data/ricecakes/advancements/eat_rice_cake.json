@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "ricecakes:rice_cake,"
+    },
+    "title": "Rice Cakes!",
+    "description": "Finally eat that long-awaited rice cake"
+  },
+  "parent": "ricecakes:craft_white_rice",
+  "criteria": {
+    "eat_rice_cake": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "ricecakes:rice_cake"
+          ]
+        }
+      }
+    }
+  }
+}

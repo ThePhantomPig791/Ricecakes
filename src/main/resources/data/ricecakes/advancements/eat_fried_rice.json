@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "ricecakes:rice_cake,"
+    },
+    "title": "Fried (Cooked?) Rice",
+    "description": "Fry... erm... cook up and eat some fried rice"
+  },
+  "parent": "ricecakes:craft_brown_rice",
+  "criteria": {
+    "eat_rice_cake": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "ricecakes:fried_rice"
+          ]
+        }
+      }
+    }
+  }
+}

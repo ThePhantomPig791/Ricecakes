@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rrr",
+    "rer",
+    "rmr"
+  ],
+  "key": {
+    "r": {
+      "item": "ricecakes:rice"
+    },
+    "e": {
+      "item": "minecraft:egg"
+    },
+    "m": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "ricecakes:raw_rice_cake"
+  }
+}

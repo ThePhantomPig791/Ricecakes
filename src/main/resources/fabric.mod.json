@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Rice Cakes",
-  "description": "Rice cakes, requested by Chris7898",
+  "description": "Rice, fried rice, and rice cakes, requested by Chris7898",
   "authors": [
     "ThePhantomPig791"
   ],
@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.thephantompig791.ricecakes.Ricecakes"
+    ],
+    "client": [
+      "net.thephantompig791.ricecakes.RicecakesClient"
     ]
   },
   "mixins": [

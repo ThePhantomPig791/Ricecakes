@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "ricecakes:rough_rice"
+    },
+    "title": "Rice Innovations",
+    "description": "Craft your rough rice into brown rice"
+  },
+  "parent": "ricecakes:harvest_rice",
+  "criteria": {
+    "harvest_rough_rice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ricecakes:brown_rice"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "ricecakes:block/rice_crop_seeds_stage1"
+  }
+}

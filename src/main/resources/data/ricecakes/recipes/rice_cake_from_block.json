@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ricecakes:rice_cake_block"
+    }
+  ],
+  "result": {
+    "item": "ricecakes:rice_cake",
+    "count": 9
+  }
+}

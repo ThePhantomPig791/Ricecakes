@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ricecakes:block/rice_cake_block"
+  }
+}

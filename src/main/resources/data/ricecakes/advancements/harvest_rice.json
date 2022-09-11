@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "ricecakes:rough_rice"
+    },
+    "title": "Rice Farmer",
+    "description": "Harvest some rough rice from the oryza sativa crop"
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "harvest_rough_rice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ricecakes:rough_rice"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
