@@ -1,6 +1,7 @@
 package net.thephantompig791.ricecakes.items;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
@@ -10,6 +11,7 @@ import net.minecraft.util.registry.Registry;
 import net.thephantompig791.ricecakes.Ricecakes;
 import net.thephantompig791.ricecakes.blocks.ModBlocks;
 import net.thephantompig791.ricecakes.items.itemtypes.RainbowRiceItem;
+import net.thephantompig791.ricecakes.items.itemtypes.RiceArmorItem;
 
 public class ModItems {
 
@@ -42,6 +44,11 @@ public class ModItems {
 
     public static final Item FRIED_RICE = registerItem("fried_rice",
             new StewItem(new FabricItemSettings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(18).saturationModifier(20).statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH, 20, 9), 0.9f).build())));
+
+    public static final Item RICE_CAKE_HELMET = registerItem("rice_cake_helmet",
+            new ArmorItem(ModArmorMaterials.RICE_CAKE, EquipmentSlot.HEAD, new FabricItemSettings().group(ItemGroup.COMBAT).food(new FoodComponent.Builder().hunger(30).saturationModifier(30).build()).maxDamage(50).maxDamageIfAbsent(50)));
+
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Ricecakes.MOD_ID, name), item);

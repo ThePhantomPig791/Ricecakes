@@ -7,6 +7,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import org.jetbrains.annotations.Nullable;
@@ -22,6 +23,7 @@ public class RainbowRiceItem extends Item {
             entity.addStatusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 100, 0));
             user.swingHand(Hand.MAIN_HAND);
             stack.decrement(1);
+            entity.playSound(SoundEvents.ENTITY_PLAYER_BURP, 1, 1.1f);
         }
         return super.useOnEntity(stack, user, entity, hand);
     }

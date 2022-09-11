@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rcr",
+    "r r"
+  ],
+  "key": {
+    "r": {
+      "item": "ricecakes:rice"
+    },
+    "c": {
+      "item": "ricecakes:rice_cake"
+    }
+  },
+  "result": {
+    "item": "ricecakes:rice_cake_helmet"
+  }
+}

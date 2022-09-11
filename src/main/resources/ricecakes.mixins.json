@@ -4,6 +4,7 @@
   "package": "net.thephantompig791.ricecakes.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "PlayerEntityMixin"
   ],
   "client": [
   ],
