@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "ricecakes:rough_rice"
+      "item": "ricecakes:rice"
     },
     "title": "Final Form",
     "description": "Craft your your brown rice into white rice"
@@ -14,7 +14,7 @@
         "items": [
           {
             "items": [
-              "ricecakes:brown_rice"
+              "ricecakes:rice"
             ]
           }
         ]

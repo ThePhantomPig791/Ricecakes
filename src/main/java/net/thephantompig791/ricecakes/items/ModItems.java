@@ -5,9 +5,11 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 import net.thephantompig791.ricecakes.Ricecakes;
 import net.thephantompig791.ricecakes.blocks.ModBlocks;
+import net.thephantompig791.ricecakes.items.itemtypes.RainbowRiceItem;
 
 public class ModItems {
 
@@ -21,7 +23,7 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(1).saturationModifier(2).snack().build())));
 
     public static final Item RAINBOW_RICE = registerItem("rainbow_rice",
-            new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(2).saturationModifier(1).snack().statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 60, 0), 1).build())));
+            new RainbowRiceItem(new FabricItemSettings().rarity(Rarity.UNCOMMON).group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(1).saturationModifier(5).statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 100, 0), 1f).build())));
 
     public static final Item RICE_CROP_SEEDS = registerItem("rice_crop_seeds",
             new AliasedBlockItem(ModBlocks.RICE_CROP_BLOCK, new Item.Settings().group(ItemGroup.MISC)));
