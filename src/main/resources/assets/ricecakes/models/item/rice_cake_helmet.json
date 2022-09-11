@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "ricecakes:item/rice_helmet"
+    "layer0": "ricecakes:item/rice_cake_helmet"
   }
 }

@@ -55,6 +55,6 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        Ricecakes.LOGGER.info("Registering the " + Ricecakes.MOD_ID + "!");
+        Ricecakes.LOGGER.info("Registering the rice cakes!");
     }
 }

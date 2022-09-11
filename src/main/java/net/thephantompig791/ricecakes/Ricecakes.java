@@ -3,6 +3,7 @@ package net.thephantompig791.ricecakes;
 import net.fabricmc.api.ModInitializer;
 import net.thephantompig791.ricecakes.blocks.ModBlocks;
 import net.thephantompig791.ricecakes.items.ModItems;
+import net.thephantompig791.ricecakes.painting.ModPaintings;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,5 +17,6 @@ public class Ricecakes implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModPaintings.registerPaintings();
 	}
 }
