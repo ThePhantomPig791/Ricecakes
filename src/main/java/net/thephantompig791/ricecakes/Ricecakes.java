@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.thephantompig791.ricecakes.blocks.ModBlocks;
 import net.thephantompig791.ricecakes.items.ModItems;
 import net.thephantompig791.ricecakes.painting.ModPaintings;
+import net.thephantompig791.ricecakes.util.ModLootTablesModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,5 +19,6 @@ public class Ricecakes implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModPaintings.registerPaintings();
+		ModLootTablesModifiers.modifyLootTables();
 	}
 }
