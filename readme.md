@@ -31,7 +31,7 @@ Crafted by surrounding a white rice in various dyes, this type of rice will lite
 
 Rice Paintings:
 I'm not going to show any pictures of the mod's three paintings, you'll need to try it and find them yourself :smirk:
-To get you started, one of them is a 1x1, one of them is a 1x20, and one of them is a 6x6. GL!
+ (To get you started, one of them is a 1x1, one of them is a 1x20, and one of them is a 6x6. GL!)
 
 
 
