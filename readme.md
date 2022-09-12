@@ -1,6 +1,6 @@
 # Rice Cakes
 ![The rice cake texture](src/main/resources/assets/ricecakes/textures/item/rice_cake.png)
-## A ~1.19 Fabric mod adding rice, rice farming, rice cakes, rice paintings, and other silly rice-related things to Minecraft!
+## A \~1.19 Fabric mod adding rice, rice farming, rice cakes, rice paintings, and other silly rice-related things to Minecraft!
 
 _Requires Fabric API_
 
@@ -50,4 +50,4 @@ A: Maybe, if enough people want it and I can figure out how, I'll try to
 A: I already said that, smh my head, you find them in savanna village chests
 
 __Thank you to Chris7898 for requesting the mod/coming up with some of the ideas!__
-(And this is my first mod, so try not to be too harsh, but if you find any bugs, please report them on the github repository [you can get to it by pressing the little "source" button next to the "files" button] and I'll try my best to fix them [the same goes for feature requests, too!])
+(And this is my first mod, so try not to be too harsh, but if you find any bugs, please report them in the [issues section](https://github.com/ThePhantomPig791/Ricecakes/issues) and I'll try my best to fix them [the same goes for feature requests, too!])
