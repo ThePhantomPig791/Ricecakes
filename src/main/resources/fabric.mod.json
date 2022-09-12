@@ -4,9 +4,12 @@
   "version": "${version}",
 
   "name": "Rice Cakes",
-  "description": "Rice, fried rice, ricecakes, and other goofy rice-related things, requested by Chris7898",
+  "description": "Rice, fried rice, rice cakes, and other goofy rice-related things, requested by Chris7898",
   "authors": [
     "ThePhantomPig791"
+  ],
+  "contributors": [
+    "Chris7898"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -31,7 +34,7 @@
 
   "depends": {
     "fabricloader": ">=0.14.9",
-    "fabric-api": "*",
+    "fabric": ">=0.58.0",
     "minecraft": "~1.19",
     "java": ">=17"
   },
