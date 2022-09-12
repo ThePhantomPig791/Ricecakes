@@ -1,4 +1,5 @@
 # Rice Cakes
+![The rice cake texture](src/main/resources/assets/ricecakes/textures/item/rice_cake.png)
 ## A ~1.19 Fabric mod adding rice, rice farming, rice cakes, rice paintings, and other silly rice-related things to Minecraft!
 
 _Requires Fabric API_
